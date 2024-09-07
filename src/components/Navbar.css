@@ -1,0 +1,42 @@
+
+.custom-navbar {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+  }
+  
+  .custom-navbar .navbar-brand img {
+    max-height: 50px; 
+  }
+  
+  .custom-nav-link {
+    color: #333;
+    font-weight: 500;
+    margin-right: 20px;
+    font-size: large;
+  }
+  
+  .custom-nav-link:hover {
+    color: #ff6600; 
+  }
+  
+  .search-form {
+    margin-right: 20px;
+  }
+  
+  .search-input {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding-left: 10px;
+  }
+  
+  .icons-nav .nav-link {
+    color: #333;
+    font-size: 1.2rem;
+    margin-right: 15px;
+  }
+  
+  .icons-nav .nav-link:hover {
+    color: #ff6600;
+  }
+  
