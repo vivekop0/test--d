@@ -11,11 +11,12 @@ import { ContactUs } from './pages/ContactUs';
 
 function App() {
   return (
-
-    <Router>
-     <h1>
+<div>
+<h1>
       <Link to={'/contact'}>Go to contact page</Link>
      </h1>
+    <Router>
+     
       
 
       <Routes>
@@ -23,6 +24,7 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
     </Router>
+    </div>
   );
 }
 
